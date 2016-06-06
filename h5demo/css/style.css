@@ -1,0 +1,372 @@
+@charset "utf-8";
+/*css Document*/
+body{ margin:0; padding:0; overflow:hidden; }
+img{ border:0; }
+.touch_box{ position:absolute; width:100%; height:100%; top:0; left:0; background-color:#c2191e; background-size:100% 100%; z-index:101; }
+#page_0{ background-color:#c2191e; }
+#page_1{ background-color:#c2191e; }
+#page_3{ background-color:#c2191e; }
+#page_4{ background-color:#c2191e; }
+#page_5{ background-color:#c2191e; }
+#page_6{ background-color:#c2191e; }
+#page_7{ background-color:#c2191e; }
+
+/*第0页*/
+.content_0 img{ position:absolute; width:100%; height:100%; top:0; left:0; background-size:100% 100%; overflow:hidden; animation:opt_1 0.5s; -webkit-animation:opt_1 0.5s; animation-fill-mode:forwards; -webkit-animation-fill-mode:forwards; }
+@keyframes opt_1{ 
+from{ opacity:0; }
+to{ opacity:1; } 
+}
+@-webkit-keyframes opt_1{ 
+from{ opacity:0; }
+to{ opacity:1; } 
+}
+.z_0_a img{ position:absolute; width:100%; height:26%; top:57%; left:-74%; background-size:100% 100%; overflow:hidden; animation:right_1 5s; -webkit-animation:right_1 5s; animation-fill-mode:forwards; -webkit-animation-fill-mode:forwards; }
+@keyframes right_1{ 
+0%{ opacity:0; top:57%; left:-74%; }
+25%{ opacity:1; top:35%; left:26%; }
+50%{ opacity:1; top:46%; left:-8%; }
+75%{ opacity:1; top:42%; left:10%; }
+100%{ opacity:1; top:45%; left:0%; }
+}
+@-webkit-keyframes right_1{ 
+0%{ opacity:0; top:57%; left:-74%; }
+25%{ opacity:1; top:35%; left:26%; }
+50%{ opacity:1; top:46%; left:-8%; }
+75%{ opacity:1; top:42%; left:10%; }
+100%{ opacity:1; top:45%; left:0%; }
+}
+.t_0 img{ position:absolute; width:26%; height:41%; top:59%; left:100%; background-size:100% 100%; overflow:hidden; animation:left_1 0.5s; -webkit-animation:left_1 0.5s; animation-fill-mode:forwards; -webkit-animation-fill-mode:forwards; }
+@keyframes left_1{ 
+from{ opacity:0; left:100%; }
+to{ opacity:1; left:74%; } 
+}
+@-webkit-keyframes left_1{ 
+from{ opacity:0; left:100%; }
+to{ opacity:1; left:74%; } 
+}
+.l_0_a img{ position:absolute; width:35%; height:17%; top:0%; left:100%; background-size:100% 100%; overflow:hidden; animation:left_2 0.5s; -webkit-animation:left_2 0.5s; animation-fill-mode:forwards; -webkit-animation-fill-mode:forwards; }
+@keyframes left_2{ 
+from{ opacity:0; top:0%; left:100%; }
+to{ opacity:1; top:9%; left:65%; } 
+}
+@-webkit-keyframes left_2{ 
+from{ opacity:0; top:0%; left:100%; }
+to{ opacity:1; top:9%; left:65%; } 
+}
+.l_0_b img{ position:absolute; width:30%; height:11%; top:40%; left:-20%; background-size:100% 100%; overflow:hidden; animation:right_2 0.5s; -webkit-animation:right_2 0.5s; animation-fill-mode:forwards; -webkit-animation-fill-mode:forwards; }
+@keyframes right_2{ 
+from{ opacity:0; top:40%; left:-20%; }
+to{ opacity:1; top:30%; left:0%; } 
+}
+@-webkit-keyframes right_2{ 
+from{ opacity:0; top:40%; left:-20%; }
+to{ opacity:1; top:30%; left:0%; } 
+}
+.l_0_c img{ position:absolute; width:100%; height:28%; top:12%; left:0%; background-size:100% 100%; overflow:hidden; animation:opt_1 0.5s; -webkit-animation:opt_1 0.5s; animation-fill-mode:forwards; -webkit-animation-fill-mode:forwards; animation-delay:0.5s; -webkit-animation-delay:0.5s; opacity:0; }
+@keyframes opt_1{ 
+from{ opacity:0; }
+to{ opacity:1; } 
+}
+@-webkit-keyframes opt_1{ 
+from{ opacity:0; }
+to{ opacity:1; } 
+}
+.z_0_b img{ position:absolute; width:20%; height:7%; top:20%; left:40%; background-size:100% 100%; overflow:hidden; animation:opt_2 0.5s; animation-fill-mode:forwards; -webkit-animation:opt_2 0.5s; -webkit-animation-fill-mode:forwards; animation-delay:0.7s;-webkit-animation-delay:0.7s; opacity:0;}
+@keyframes opt_2{ 
+from{ opacity:0; width:20%; height:7%; top:20%; left:40%; }
+to{ opacity:1; width:100%; height:17%; top:17%; left:0%; } 
+}
+@-webkit-keyframes opt_2{ 
+from{ opacity:0; width:20%; height:7%; top:20%; left:40%; }
+to{ opacity:1; width:100%; height:17%; top:17%; left:0%; } 
+}
+
+
+/*第1页*/
+.content_1 img{ position:absolute; width:100%; height:100%; top:0; left:0; background-size:100% 100%; overflow:hidden; animation:opt_1 0.5s; -webkit-animation:opt_1 0.5s; animation-fill-mode:forwards; -webkit-animation-fill-mode:forwards; }
+.z_1_a img{ position:absolute; width:100%; height:15%; top:50%; left:0%; background-size:100% 100%; overflow:hidden; animation:right_3 1s; -webkit-animation:right_3 1s; animation-fill-mode:forwards; -webkit-animation-fill-mode:forwards; }
+.z_1_b img{ position:absolute; width:100%; height:15%; top:23%; left:0%; background-size:100% 100%; overflow:hidden; animation:left_3 1s; -webkit-animation:left_3 1s; animation-fill-mode:forwards; -webkit-animation-fill-mode:forwards; }
+.l_1_a img{ position:absolute; width:100%; height:22%; top:20%; left:-100%; background-size:100% 100%; overflow:hidden; animation:right_3 1s; -webkit-animation:right_3 1s; animation-fill-mode:forwards; -webkit-animation-fill-mode:forwards; }
+@keyframes right_3{ 
+from{ opacity:0; left:-100%; }
+to{ opacity:1; left:0%; } 
+}
+@-webkit-keyframes right_3{ 
+from{ opacity:0; left:-100%; }
+to{ opacity:1; left:0%; } 
+}
+.l_1_b img{ position:absolute; width:100%; height:39%; top:47%; left:100%; background-size:100% 100%; overflow:hidden; animation:left_3 1s; -webkit-animation:left_3 1s; animation-fill-mode:forwards; -webkit-animation-fill-mode:forwards; }
+@keyframes left_3{ 
+from{ opacity:0; left:100%; }
+to{ opacity:1; left:0%; } 
+}
+@-webkit-keyframes left_3{ 
+from{ opacity:0; left:100%; }
+to{ opacity:1; left:0%; } 
+}
+
+/*第2页*/
+.content_2 img{ position:absolute; width:100%; height:100%; top:0; left:0; background-size:100% 100%; overflow:hidden; animation:opt_1 0.5s; -webkit-animation:opt_1 0.5s; animation-fill-mode:forwards; -webkit-animation-fill-mode:forwards; }
+.z_2_a img{ position:absolute; width:10%; height:32%; top:3%; right:8%; background-size:100% 100%; overflow:hidden; animation:opt_1 2s; -webkit-animation:opt_1 2s; animation-fill-mode:forwards; -webkit-animation-fill-mode:forwards; animation-delay:0.5s;-webkit-animation-delay:0.5s; opacity:0; }
+.z_2_b img{ position:absolute; width:10%; height:57%; top:3%; right:18%; background-size:100% 100%; overflow:hidden; animation:opt_1 2s; -webkit-animation:opt_1 2s; animation-fill-mode:forwards; -webkit-animation-fill-mode:forwards; animation-delay:1s;-webkit-animation-delay:1s; opacity:0; }
+.z_2_c img{ position:absolute; width:10%; height:57%; top:3%; right:28%; background-size:100% 100%; overflow:hidden; animation:opt_1 2s; -webkit-animation:opt_1 2s; animation-fill-mode:forwards; -webkit-animation-fill-mode:forwards; animation-delay:1.5s;-webkit-animation-delay:1.5s; opacity:0; }
+.z_2_d img{ position:absolute; width:10%; height:38%; top:3%; right:38%; background-size:100% 100%; overflow:hidden; animation:opt_1 2s; -webkit-animation:opt_1 2s; animation-fill-mode:forwards; -webkit-animation-fill-mode:forwards; animation-delay:2s;-webkit-animation-delay:2s; opacity:0; }
+.z_2_e img{ position:absolute; width:11%; height:38%; top:3%; right:48%; background-size:100% 100%; overflow:hidden; animation:opt_1 2s; -webkit-animation:opt_1 2s; animation-fill-mode:forwards; -webkit-animation-fill-mode:forwards; animation-delay:2.5s;-webkit-animation-delay:2.5s; opacity:0; }
+.t_2_a img{ position:absolute; width:24%; height:14%; top:72%; left:14%; background-size:100% 100%; overflow:hidden; animation:opt_3 1s; -webkit-animation:opt_3 1s; animation-fill-mode:forwards; -webkit-animation-fill-mode:forwards; }
+@keyframes opt_3{ 
+from{ opacity:0; width:24%; height:14%; top:72%; left:14%; }
+to{ opacity:1; width:88%; height:50%; top:50%; left:-17%; } 
+}
+@-webkit-keyframes opt_3{ 
+from{ opacity:0; width:24%; height:14%; top:72%; left:14%; }
+to{ opacity:1; width:88%; height:50%; top:50%; left:-17%; } 
+}
+.t_2_b img{ position:absolute; width:100%; height:27%; top:73%; left:0%; background-size:100% 100%; overflow:hidden; animation:opt_1 1s; -webkit-animation:opt_1 1s; animation-fill-mode:forwards; -webkit-animation-fill-mode:forwards; }
+
+
+/*第3页*/
+.content_3 img{ position:absolute; width:100%; height:100%; top:0; left:0; background-size:100% 100%; overflow:hidden; animation:opt_1 0.5s; -webkit-animation:opt_1 0.5s; animation-fill-mode:forwards; -webkit-animation-fill-mode:forwards; }
+.z_3_a img{ position:absolute; width:100%; height:10%; top:12%; left:100%; background-size:100% 100%; overflow:hidden; animation:left_6 1s; -webkit-animation:left_6 1s; animation-fill-mode:forwards; -webkit-animation-fill-mode:forwards; animation-delay:0.2s;-webkit-animation-delay:0.2s; opacity:0; }
+@keyframes left_6{ 
+from{ opacity:0; left:100%; }
+to{ opacity:1; left:0%; } 
+}
+@-webkit-keyframes left_6{ 
+from{ opacity:0; left:100%; }
+to{ opacity:1; left:0%; } 
+}
+.z_3_b img{ position:absolute; width:100%; height:10%; top:36%; left:100%; background-size:100% 100%; overflow:hidden; animation:left_6 1s; -webkit-animation:left_6 1s; animation-fill-mode:forwards; -webkit-animation-fill-mode:forwards; animation-delay:0.5s;-webkit-animation-delay:0.5s; opacity:0; }
+.z_3_c img{ position:absolute; width:80%; height:34%; top:54%; left:10%; background-size:100% 100%; overflow:hidden; animation:opt_4 0.5s; -webkit-animation:opt_4 0.5s; animation-fill-mode:forwards; -webkit-animation-fill-mode:forwards; animation-delay:1.2s;-webkit-animation-delay:1.2s; opacity:0; }
+@keyframes opt_4{ 
+from{ opacity:0; width:80%; height:34%; top:54%; left:10%; }
+to{ opacity:1; width:62%; height:26%; top:58%; left:19%; } 
+}
+@-webkit-keyframes opt_4{ 
+from{ opacity:0; width:80%; height:34%; top:54%; left:10%; }
+to{ opacity:1; width:62%; height:26%; top:58%; left:19%; } 
+}
+.t_3_a img{ position:absolute; width:19%; height:11%; top:11%; left:5%; background-size:100% 100%; overflow:hidden; animation:opt_5 0.5s; -webkit-animation:opt_5 0.5s; animation-fill-mode:forwards; -webkit-animation-fill-mode:forwards; animation-delay:0.2s;-webkit-animation-delay:0.2s; opacity:0; }
+@keyframes opt_5{ 
+from{ opacity:0; width:19%; height:11%; top:11%; left:5%; }
+to{ opacity:1; width:12%; height:7%; top:12%; left:8%; } 
+}
+@-webkit-keyframes opt_5{ 
+from{ opacity:0; width:19%; height:11%; top:11%; left:5%; }
+to{ opacity:1; width:12%; height:7%; top:12%; left:8%; } 
+}
+.t_3_b img{ position:absolute; width:19%; height:11%; top:35%; left:5%; background-size:100% 100%; overflow:hidden; animation:opt_6 0.5s; -webkit-animation:opt_6 0.5s; animation-fill-mode:forwards; -webkit-animation-fill-mode:forwards; animation-delay:0.5s;-webkit-animation-delay:0.5s; opacity:0;  }
+@keyframes opt_6{ 
+from{ opacity:0; width:19%; height:11%; top:35%; left:5%; }
+to{ opacity:1; width:12%; height:7%; top:37%; left:8%; } 
+}
+@-webkit-keyframes opt_6{ 
+from{ opacity:0; width:19%; height:11%; top:35%; left:5%; }
+to{ opacity:1; width:12%; height:7%; top:37%; left:8%; } 
+}
+.l_3_a img{ position:absolute; width:1%; height:55%; top:-55%; left:14%; background-size:100% 100%; overflow:hidden; animation:down_3 1s; -webkit-animation:down_3 1s; animation-fill-mode:forwards; -webkit-animation-fill-mode:forwards; }
+@keyframes down_3{ 
+from{ opacity:1; top:-55%; }
+to{ opacity:1; top:0%; } 
+}
+@-webkit-keyframes down_3{ 
+from{ opacity:1; top:-55%; }
+to{ opacity:1; top:0%; } 
+}
+.l_3_b img{ position:absolute; width:1%; height:13%; top:42%; left:14%; background-size:100% 100%; overflow:hidden; animation:down_4 1s; -webkit-animation:down_4 1s; animation-fill-mode:forwards; -webkit-animation-fill-mode:forwards; animation-delay:1s;-webkit-animation-delay:1s; opacity:0; }
+@keyframes down_4{ 
+0%{ opacity:0; top:42%; }
+50%{ opacity:1; top:55%;}
+100%{ opacity:1; top:55%; 
+transform: rotate(-40deg);
+transform-origin:0% 0%;
+-ms-transform: rotate(-40deg); /* IE 9 */
+-ms-transform-origin:0% 0%; /* IE 9 */
+-webkit-transform: rotate(-40deg); /* Safari and Chrome */
+-webkit-transform-origin:0% 0%; /* Safari and Chrome */
+-moz-transform: rotate(-40deg); /* Firefox */
+-moz-transform-origin:0% 0%; /* Firefox */
+-o-transform: rotate(-40deg); /* Opera */
+-o-transform-origin:0% 0%; /* Opera */}
+}
+@-webkit-keyframes down_4{ 
+0%{ opacity:0; top:42%; }
+50%{ opacity:1; top:55%;}
+100%{ opacity:1; top:55%; 
+transform: rotate(-40deg);
+transform-origin:0% 0%;
+-ms-transform: rotate(-40deg); /* IE 9 */
+-ms-transform-origin:0% 0%; /* IE 9 */
+-webkit-transform: rotate(-40deg); /* Safari and Chrome */
+-webkit-transform-origin:0% 0%; /* Safari and Chrome */
+-moz-transform: rotate(-40deg); /* Firefox */
+-moz-transform-origin:0% 0%; /* Firefox */
+-o-transform: rotate(-40deg); /* Opera */
+-o-transform-origin:0% 0%; /* Opera */}
+}
+
+
+
+/*第4页*/
+.content_4 img{ position:absolute; width:100%; height:100%; top:0; left:0; background-size:100% 100%; overflow:hidden; animation:opt_1 0.5s; -webkit-animation:opt_1 0.5s; animation-fill-mode:forwards; -webkit-animation-fill-mode:forwards; }
+.z_4_a img{ position:absolute; width:100%; height:17%; top:23%; left:0%; background-size:100% 100%; overflow:hidden; animation:right_3 1s; -webkit-animation:right_3 1s; animation-fill-mode:forwards; -webkit-animation-fill-mode:forwards; }
+.z_4_b img{ position:absolute; width:100%; height:19%; top:50%; left:0%; background-size:100% 100%; overflow:hidden; animation:left_3 1s; -webkit-animation:left_3 1s; animation-fill-mode:forwards; -webkit-animation-fill-mode:forwards; }
+.l_4_a img{ position:absolute; width:48%; height:12%; top:0%; left:52%; background-size:100% 100%; overflow:hidden; animation:left_4 1s; -webkit-animation:left_4 1s; animation-fill-mode:forwards; -webkit-animation-fill-mode:forwards; }
+@keyframes left_4{ 
+from{ opacity:0; top:0%; left:52%; }
+to{ opacity:1; top:20%; left:9%; } 
+}
+@-webkit-keyframes left_4{ 
+from{ opacity:0; top:0%; left:52%; }
+to{ opacity:1; top:20%; left:9%; } 
+}
+.l_4_b img{ position:absolute; width:74%; height:31%; top:69%; left:0%; background-size:100% 100%; overflow:hidden; animation:right_4 1s; -webkit-animation:right_4 1s; animation-fill-mode:forwards; -webkit-animation-fill-mode:forwards; }
+@keyframes right_4{ 
+from{ opacity:0; top:69%; left:0%; }
+to{ opacity:1; top:48%; left:16%; } 
+}
+@-webkit-keyframes right_4{ 
+from{ opacity:0; top:69%; left:0%; }
+to{ opacity:1; top:48%; left:16%; } 
+}
+
+
+
+/*第5页*/
+.content_5 img{ position:absolute; width:100%; height:100%; top:0; left:0; background-size:100% 100%; overflow:hidden; animation:opt_1 0.5s; -webkit-animation:opt_1 0.5s; animation-fill-mode:forwards; -webkit-animation-fill-mode:forwards; }
+.z_5 img{ position:absolute; width:100%; height:32%; top:37%; left:0%; background-size:100% 100%; overflow:hidden; animation:left_3 1s; -webkit-animation:left_3 1s; animation-fill-mode:forwards; -webkit-animation-fill-mode:forwards; }
+.l_5 img{ position:absolute; width:60%; height:39%; top:28%; left:-2%; background-size:100% 100%; overflow:hidden; animation:right_5 1s; -webkit-animation:right_5 1s; animation-fill-mode:forwards; -webkit-animation-fill-mode:forwards; }
+@keyframes right_5{ 
+from{ opacity:0; top:28%; left:-2%; }
+to{ opacity:1; top:32%; left:6%; } 
+}
+@-webkit-keyframes right_5{ 
+from{ opacity:0; top:28%; left:-2%; }
+to{ opacity:1; top:32%; left:6%; } 
+}
+.t_5 img{ position:absolute; width:48%; height:35%; top:65%; left:52%; background-size:100% 100%; overflow:hidden; animation:opt_1 1s; -webkit-animation:opt_1 1s; animation-fill-mode:forwards; -webkit-animation-fill-mode:forwards; animation-delay:0.5s; -webkit-animation-delay:0.5s; opacity:0; }
+
+
+/*第6页*/
+.content_6 img{ position:absolute; width:100%; height:100%; top:0; left:0; background-size:100% 100%; overflow:hidden; animation:opt_1 0.5s; -webkit-animation:opt_1 0.5s; animation-fill-mode:forwards; -webkit-animation-fill-mode:forwards; }
+.z_6 img{ position:absolute; width:58%; height:34%; top:28%; left:21%; background-size:100% 100%; overflow:hidden; animation:opt_1 3s; -webkit-animation:opt_1 3s; animation-fill-mode:forwards; -webkit-animation-fill-mode:forwards; animation-delay:0.5s; -webkit-animation-delay:0.5s; opacity:0; }
+.l_6_a img{ position:absolute; width:100%; height:60%; top:16%; left:0%; background-size:100% 100%; overflow:hidden; animation:opt_1 0.7s; -webkit-animation:opt_1 0.7s; animation-fill-mode:forwards; -webkit-animation-fill-mode:forwards; animation-delay:0.5s; -webkit-animation-delay:0.5s; opacity:0; }
+.l_6_b img{ position:absolute; width:22%; height:10%; top:11%; left:-10%; background-size:100% 100%; overflow:hidden; animation:right_6 0.5s; -webkit-animation:right_6 0.5s; animation-fill-mode:forwards; -webkit-animation-fill-mode:forwards; }
+@keyframes right_6{ 
+from{ opacity:0; top:11%; left:-10%; }
+to{ opacity:1; top:20%; left:18%; } 
+}
+@-webkit-keyframes right_6{ 
+from{ opacity:0; top:11%; left:-10%; }
+to{ opacity:1; top:20%; left:18%; } 
+}
+.l_6_c img{ position:absolute; width:21%; height:10%; top:72%; left:79%; background-size:100% 100%; overflow:hidden; animation:left_5 0.5s; -webkit-animation:left_5 0.5s; animation-fill-mode:forwards; -webkit-animation-fill-mode:forwards; }
+@keyframes left_5{ 
+from{ opacity:0; top:72%; left:79%; }
+to{ opacity:1; top:62%; left:63%; } 
+}
+@-webkit-keyframes left_5{ 
+from{ opacity:0; top:72%; left:79%; }
+to{ opacity:1; top:62%; left:63%; } 
+}
+
+
+/*第7页*/
+.content_7 img{ position:absolute; width:100%; height:100%; top:0; left:0; background-size:100% 100%; overflow:hidden; animation:opt_1 0.5s; -webkit-animation:opt_1 0.5s; animation-fill-mode:forwards; -webkit-animation-fill-mode:forwards; }
+.z_7_a img{ position:absolute; width:100%; height:32%; top:38%; left:0%; background-size:100% 100%; overflow:hidden; animation:opt_1 2s; -webkit-animation:opt_1 2s; animation-fill-mode:forwards; -webkit-animation-fill-mode:forwards; animation-delay:0.5s; -webkit-animation-delay:0.5s; opacity:0; }
+.z_7_b img{ position:absolute; width:100%; height:31%; top:100%; left:0%; background-size:100% 100%; overflow:hidden; animation:up_1 0.5s; -webkit-animation:up_1 0.5s; animation-fill-mode:forwards; -webkit-animation-fill-mode:forwards; }
+@keyframes up_1{ 
+from{ opacity:0; top:100%; }
+to{ opacity:1; top:69%; } 
+}
+@-webkit-keyframes up_1{ 
+from{ opacity:0; top:100%; }
+to{ opacity:1; top:69%; } 
+}
+.l_7 img{ position:absolute; width:100%; height:5%; top:27%; left:0%; background-size:100% 100%; overflow:hidden; animation:down_1 0.5s; -webkit-animation:down_1 0.5s; animation-fill-mode:forwards; -webkit-animation-fill-mode:forwards; animation-delay:0.5s; -webkit-animation-delay:0.5s; opacity:0; }
+@keyframes down_1{ 
+from{ opacity:0; top:27%; }
+to{ opacity:1; top:34%; } 
+}
+@-webkit-keyframes down_1{ 
+from{ opacity:0; top:27%; }
+to{ opacity:1; top:34%; } 
+}
+.t_7 img{ position:absolute; width:18%; height:25%; top:-25%; left:41%; background-size:100% 100%; overflow:hidden; animation:down_2 0.5s; -webkit-animation:down_2 0.5s; animation-fill-mode:forwards; -webkit-animation-fill-mode:forwards; }
+@keyframes down_2{ 
+from{ opacity:0; top:-25%; }
+to{ opacity:1; top:0%; } 
+}
+@-webkit-keyframes down_2{ 
+from{ opacity:0; top:-25%; }
+to{ opacity:1; top:0%; } 
+}
+
+
+
+
+#page_8{ background-color:#c2191e; }
+
+.content_8 img{ position:absolute; width:100%; height:100%; top:0; left:0; background-size:100% 100%; overflow:hidden; animation:opt_1 0.5s; -webkit-animation:opt_1 0.5s; animation-fill-mode:forwards; -webkit-animation-fill-mode:forwards; }
+.z_8_a img{ position:absolute; width:100%; height:7%; top:68%; left:0%; background-size:100% 100%; overflow:hidden; animation:small_1 0.5s; -webkit-animation:small_1 0.5s; animation-fill-mode:forwards; -webkit-animation-fill-mode:forwards; animation-delay:0.7s; -webkit-animation-delay:0.7s; opacity:0; }
+@keyframes small_1{ 
+from{ opacity:0; 
+transform:scale(2,2);
+-webkit-transform:scale(2,2);
+-o-transform:scale(2,2); }
+to{ opacity:1; }
+}
+@-webkit-keyframes small_1{ 
+from{ opacity:0; 
+transform:scale(2,2);
+-webkit-transform:scale(2,2);
+-o-transform:scale(2,2); }
+to{ opacity:1; }
+}
+.z_8_b img{ position:absolute; width:100%; height:8%; top:8%; left:100%; background-size:100% 100%; overflow:hidden; animation:left_3 0.5s; -webkit-animation:left_3 0.5s; animation-fill-mode:forwards; -webkit-animation-fill-mode:forwards; }
+@keyframes left_3{ 
+from{ opacity:0; left:100%; }
+to{ opacity:1; left:0%; } 
+}
+@-webkit-keyframes left_3{ 
+from{ opacity:0; left:100%; }
+to{ opacity:1; left:0%; } 
+}
+.z_8_c img{ position:absolute; width:100%; height:24%; top:14%; left:0%; background-size:100% 100%; overflow:hidden; animation:down_5 1s; -webkit-animation:down_5 1s; animation-fill-mode:forwards; -webkit-animation-fill-mode:forwards; animation-delay:0.2s; -webkit-animation-delay:0.2s; opacity:0; }
+@keyframes down_5{ 
+from{ opacity:0; top:14%; }
+to{ opacity:1; top:38%; } 
+}
+@-webkit-keyframes down_5{ 
+from{ opacity:0; top:14%; }
+to{ opacity:1; top:38%; } 
+}
+.l_8 img{ position:absolute; width:68%; height:11%; top:0%; left:0%; background-size:100% 100%; overflow:hidden; animation:right_7 0.5s; -webkit-animation:right_7 0.5s; animation-fill-mode:forwards; -webkit-animation-fill-mode:forwards; }
+@keyframes right_7{ 
+from{ opacity:0; top:0%; left:0%; }
+to{ opacity:1; top:6%; left:6%; } 
+}
+@-webkit-keyframes right_7{ 
+from{ opacity:0; top:0%; left:0%; }
+to{ opacity:1; top:6%; left:6%; } 
+}
+
+
+
+
+
+
+.pof{position: fixed; z-index:9999}
+
+
+
+
+#switch-music{z-index:999; top:10px; right:20px; width:30px; height:30px;}
+#switch-music.show{display:block; z-index:999;}
+#switch-music .tips{color: rgba(255,255,255,.75); z-index:999; top: 15px; right: 60px; width: 100px; text-align: right; opacity: 0;}
+#switch-music .tips.on{opacity: 1; right: 50px; z-index:999;}
+#switch-music div:nth-child(2){display:none; z-index:999;}
+#switch-music.on div:nth-child(2){display:block; animation: music 1s linear infinite; -webkit-animation: music 1s linear infinite; z-index:999;}
+
+
+.loading{ position:absolute; top:50%; left:50%; margin-top:-15px; margin-left:-15px; }

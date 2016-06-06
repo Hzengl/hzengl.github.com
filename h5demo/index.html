@@ -1,0 +1,188 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+<title>旗舰领航 相约G45</title>
+<link rel="stylesheet" href="css/jquery.mobile-1.4.5.css">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/jquery-1.11.1.js"></script>
+<script src="js/jquery.cookie.js"></script>
+<script src="js/jquery.mobile-1.4.5.js"></script>
+<script src="js/touch.js"></script>
+<script src="js/main.js"></script>
+<script src="js/loadimg.js"></script>
+
+<style type="text/css">
+.a_mu {display:none!important;display:none}
+.a_pt {display:none!important;display:none}
+.wp.a_t {display:none!important;display:none}
+.ad,.ad-980x90,.ad-text,[id^="pushAd_"],#sitefocus.focus,.top-ad,.adsbygoogle,[class^="ad_headerbanner"],#gg_head,.ad_column,#header_ad,[class$="_topad"],img[src*="/common/cf/"],#adtext,#ad_headerbanner,font.jammer {display:none!important;display:none}
+#ads_c_tpc,[class^="ad_float_"],.a_fl,.a_fr,.a_h,.a_pb,.a_pr,.wp.a_f,#ad_text,[id^="ad_headerbanner"],.ad1,#abgne_float_ad,.ad_pip,[id^="ad_thread"],.ad2,.a_cn,.bm.a_c,#ad_wrapper,[id^="ad_footerbanner"],[id^="lovexin1"] {display:none!important;display:none}</style>
+</head>
+
+<body>
+
+
+<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+
+
+<script>
+    wx.config({
+        //debug:true,
+        appId: 'wx312b2a79960e86f5',
+        timestamp: '1465200153',
+        nonceStr: 'vITCvIujetFfKXlF',
+        signature: '418b211a59c6454bb2b9dee4da6c5ffacc7ce705',
+        jsApiList: [
+            // 所有要调用的 API 都要加到这个列表中
+           'onMenuShareTimeline', 'onMenuShareAppMessage'
+          ]
+    });
+	
+
+   
+   
+   
+   wx.ready(function(){
+		wx.onMenuShareAppMessage({
+          title: '旗舰领航 相约G45',
+          desc: '2016年度华夏幸福G45区域事业部新春员工大会',
+          link: 'http://sj.xinyisheji.com/dc',
+          imgUrl: 'http://sj.xinyisheji.com/dc/logo1.jpg',
+          trigger: function (res) {
+            // 不要尝试在trigger中使用ajax异步请求修改本次分享的内容，因为客户端分享操作是一个同步操作，这时候使用ajax的回包会还没有返回
+           //alert('用户点击发送给朋友');
+          },
+          success: function (res) {
+            // alert('已分享');
+          },
+          cancel: function (res) {
+            // alert('已取消');
+          },
+          fail: function (res) {
+            // alert(JSON.stringify(res));
+          }
+        });
+
+        wx.onMenuShareTimeline({
+          title: '2016年度华夏幸福G45区域事业部新春员工大会',
+          link: 'http://sj.xinyisheji.com/dc',
+          imgUrl: 'http://sj.xinyisheji.com/dc/logo1.jpg',
+          trigger: function (res) {
+            // 不要尝试在trigger中使用ajax异步请求修改本次分享的内容，因为客户端分享操作是一个同步操作，这时候使用ajax的回包会还没有返回
+             //alert('用户点击分享到朋友圈');
+          },
+          success: function (res) {
+            // alert('已分享');
+          },
+          cancel: function (res) {
+            // alert('已取消');
+          },
+          fail: function (res) {
+            // alert(JSON.stringify(res));
+          }
+        });	
+	});		
+		
+		
+	
+</script>
+<div class="touch_box" id="touch_box">
+  <div data-role="page" id="page_99">
+    <div class="loading">
+      <img src="images/loading.gif" border="0">
+    </div>
+
+  </div>
+
+  <div data-role="page" id="page_0">
+    <div data-role="content" class="content_0" id="p_0"><img src="images/bg_01.jpg"></div>
+    <div class="z_0_a"><img src="images/z_01.png"></div>
+    <div class="z_0_b"><img src="images/z_02.png"></div>
+    <div class="t_0"><img src="images/p_01.png"></div>
+    <div class="l_0_a"><img src="images/l_01.png"></div>
+    <div class="l_0_b"><img src="images/l_02.png"></div>
+    <div class="l_0_c"><img src="images/l_03.png"></div>
+  </div>
+  
+  <div data-role="page" id="page_1">
+    <div data-role="content" class="content_1" id="p_1"><img src="images/bg_02.jpg"></div>
+    <div class="z_1_a"><img src="images/z_03.png"></div>
+    <div class="z_1_b"><img src="images/z_04.png"></div>
+    <div class="l_1_a"><img src="images/l_04.png"></div>
+    <div class="l_1_b"><img src="images/l_05.png"></div>
+  </div>
+  
+  <div data-role="page" id="page_2">
+    <div data-role="content" class="content_2" id="p_2"><img src="images/bg_03.jpg"></div>
+    <div class="z_2_a"><img src="images/z_08.png"></div>
+    <div class="z_2_b"><img src="images/z_09.png"></div>
+    <div class="z_2_c"><img src="images/z_07.png"></div>
+    <div class="z_2_d"><img src="images/z_06.png"></div>
+    <div class="z_2_e"><img src="images/z_05.png"></div>
+    <div class="t_2_a"><img src="images/p_03.png"></div>
+    <div class="t_2_b"><img src="images/p_04.png"></div>
+  </div>
+  
+  <div data-role="page" id="page_3">
+    <div data-role="content" class="content_3" id="p_3"><img src="images/bg_04.jpg"></div>
+    <div class="l_3_a"><img src="images/l_14.png"></div>
+    <div class="l_3_b"><img src="images/l_13.png"></div>
+    <div class="z_3_a"><img src="images/z_17.png"></div>
+    <div class="z_3_b"><img src="images/z_18.png"></div>
+    <div class="z_3_c"><img src="images/z_16.png"></div>
+    <div class="t_3_a"><img src="images/p_10.png"></div>
+    <div class="t_3_b"><img src="images/p_09.png"></div>
+  </div>
+  
+  <div data-role="page" id="page_4">
+    <div data-role="content" class="content_4" id="p_4"><img src="images/bg_05.jpg"></div>
+    <div class="z_4_a"><img src="images/z_11.png"></div>
+    <div class="z_4_b"><img src="images/z_10.png"></div>
+    <div class="l_4_a"><img src="images/l_07.png"></div>
+    <div class="l_4_b"><img src="images/l_06.png"></div>
+  </div>
+  
+  <div data-role="page" id="page_5">
+    <div data-role="content" class="content_5" id="p_5"><img src="images/bg_06.jpg"></div>
+    <div class="z_5"><img src="images/z_12.png"></div>
+    <div class="l_5"><img src="images/l_08.png"></div>
+    <div class="t_5"><img src="images/p_05.png"></div>
+  </div>
+  
+  <div data-role="page" id="page_6">
+    <div data-role="content" class="content_6" id="p_6"><img src="images/bg_07.jpg"></div>
+    <div class="z_6"><img src="images/z_13.png"></div>
+    <div class="l_6_a"><img src="images/l_09.png"></div>
+    <div class="l_6_b"><img src="images/l_10.png"></div>
+    <div class="l_6_c"><img src="images/l_11.png"></div>
+  </div>
+  
+  <div data-role="page" id="page_7">
+    <div data-role="content" class="content_7" id="p_7"><img src="images/bg_08.jpg"></div>
+    <div class="z_7_a"><img src="images/z_15.png"></div>
+    <div class="z_7_b"><img src="images/z_14.png"></div>
+    <div class="l_7"><img src="images/l_12.png"></div>
+    <div class="t_7"><img src="images/p_06.png"></div>
+  </div>
+  
+   <div data-role="page" id="page_8">
+    <div data-role="content" class="content_8" id="p_8"><img src="images/bg_09.jpg"></div>
+    <div class="z_8_a"><img src="images/z_19.png"></div>
+    <div class="z_8_b"><img src="images/z_20.png"></div>
+    <div class="z_8_c"><img src="images/z_21.png"></div>
+    <div class="l_8"><img src="images/l_15.png"></div>    
+  </div>
+
+
+</div>
+
+<div id="switch-music" class="pof">
+  <div class="tips poa ts5"></div>
+  <div><img src="images/music_on.png" alt=""></div>
+  <div id="m_off"><img src="images/music_off.png" alt=""></div>
+</div>
+</body>
+</html>
