@@ -100,7 +100,7 @@ $(function(){
 	//翻页设置
 
 	//定义初始页面
-	$.cookie("page_num", 0);
+	$.cookie("p_num", 0);
 	
 	var touch_box = document.querySelector('#touch_box');
 	
@@ -121,9 +121,9 @@ $(function(){
 		{
 
 
-					page_num =0
-					$.cookie("page_num", page_num);
-					$.mobile.changePage("#page_"+page_num+"",{transition:"pop"}, true ,false)
+					p_num =0;
+					$.cookie("p_num", p_num);
+					$.mobile.changePage("#p_"+p_num+"",{transition:"pop"}, true ,false)
 					$(".loading").css("display","none");
 
 
@@ -165,29 +165,6 @@ $(function(){
 
 loadScoure("test", as());
 
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-
-	
-	
-
 				
 //	touch.on(English, 'tap', function(event) {
 //		window.location.href = "http://huaxia.vicbang.com/invitation_en/";
@@ -195,50 +172,50 @@ loadScoure("test", as());
 
 
 function as(){
-			
+
+	//向上滑动
 	touch.on(touch_box,'swipeup',function(){
 
-
-
-		var page_num = parseInt($.cookie("page_num")); //1
+		var p_num = parseInt($.cookie("p_num")); //1
 		
-		page_num = page_num+1   //2
+		p_num = p_num+1;  //2
 		
-		if(page_num >= 9){   //10
+		if(p_num >= 6){   //10
 
-			page_num = 0;
+			p_num = 0;
 
-		    $.cookie("page_num", page_num);
+		    $.cookie("p_num", p_num);
 
-		    $.mobile.changePage("#page_"+page_num+"",{transition:"slide"}, true ,false);	
+		    $.mobile.changePage("#p_"+p_num+"",{transition:"slide"}, true ,false);
 		    		
-		}else{ $.cookie("page_num", page_num);
+		}else{ $.cookie("p_num", p_num);
 /*$(document).on("pageinit","#page_"+page_num+"",function(){})*/
                    
 
-		    $.mobile.changePage("#page_"+page_num+"",{transition:"slide"}, true ,false);}
+		    $.mobile.changePage("#p_"+p_num+"",{transition:"slide"}, true ,false);}
 
         
 		//alert(page_num);
 		
 	});
-		
+
+	//向下滑动
 	touch.on(touch_box,'swipedown',function(){
 		
-		var page_num = parseInt($.cookie("page_num"));
+		var p_num = parseInt($.cookie("p_num"));
 		
-		page_num = page_num-1
+		p_num = p_num-1;
 		
 		
 		//alert(page_num);
-		if(page_num <= (-1)){
-				page_num = 9 ;
-			  $.cookie("page_num", page_num);
+		if(p_num <= (-1)){
+				p_num = 6 ;
+			  $.cookie("p_num", p_num);
 		
-		      $.mobile.changePage("#page_"+page_num+"",{transition:"slidedown"}, true ,false);
-		}else{ $.cookie("page_num", page_num);
+		      $.mobile.changePage("#p_"+p_num+"",{transition:"slidedown"}, true ,false);
+		}else{ $.cookie("p_num", p_num);
 
-		    $.mobile.changePage("#page_"+page_num+"",{transition:"slidedown"}, true ,false);	}
+		    $.mobile.changePage("#p_"+p_num+"",{transition:"slidedown"}, true ,false);	}
 		
 		
 	});
