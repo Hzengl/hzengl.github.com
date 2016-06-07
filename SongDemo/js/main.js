@@ -91,8 +91,8 @@ $(function(){
     } 
 	
 	//屏蔽普通滑动事件，使屏幕固定
-	function stopScrolling( touchEvent ) { 
-		touchEvent.preventDefault(); 
+	function stopScrolling( touchEvent ) {
+		touchEvent.preventDefault();
 	}
 	document.addEventListener( 'touchstart' , stopScrolling , false );
 	document.addEventListener( 'touchmove' , stopScrolling , false );
@@ -100,7 +100,7 @@ $(function(){
 	//翻页设置
 
 	//定义初始页面
-	$.cookie("p_num", 0);
+	$.cookie("p_num",0);
 	
 	var touch_box = document.querySelector('#touch_box');
 	
@@ -113,21 +113,15 @@ $(function(){
 
 
 
-
+    //从加载页面切换到第一个页面
 	var tload=setInterval(function(){
 
-
-		if(loadcount>=48)
+		if(loadcount>=5)
 		{
-
-
 					p_num =0;
 					$.cookie("p_num", p_num);
-					$.mobile.changePage("#p_"+p_num+"",{transition:"pop"}, true ,false)
-					$(".loading").css("display","none");
-
-
-
+					$.mobile.changePage("#p_"+p_num+"",{transition:"pop"}, true ,false)    //以pop效果 跳转到 "#page_"+page_num+"" 页面 并且在url hash里不记录其历史
+					$(".loading").css("display","none");   //意思是加载gif不显示
 
 			clearInterval(tload);
 		}
@@ -158,7 +152,7 @@ $(function(){
         }
         img.src = arr[count];
         img.onerror = function(){
-            setTimeout(callback, 3000);
+            setTimeout(callback, 1000);
         }
     })();
 }
@@ -188,14 +182,12 @@ function as(){
 
 		    $.mobile.changePage("#p_"+p_num+"",{transition:"slide"}, true ,false);
 		    		
-		}else{ $.cookie("p_num", p_num);
-/*$(document).on("pageinit","#page_"+page_num+"",function(){})*/
-                   
+		}else{
+			$.cookie("p_num", p_num);
 
-		    $.mobile.changePage("#p_"+p_num+"",{transition:"slide"}, true ,false);}
+		    $.mobile.changePage("#p_"+p_num+"",{transition:"slide"}, true ,false);
+		}
 
-        
-		//alert(page_num);
 		
 	});
 
@@ -205,17 +197,18 @@ function as(){
 		var p_num = parseInt($.cookie("p_num"));
 		
 		p_num = p_num-1;
-		
-		
+
 		//alert(page_num);
 		if(p_num <= (-1)){
 				p_num = 6 ;
 			  $.cookie("p_num", p_num);
 		
-		      $.mobile.changePage("#p_"+p_num+"",{transition:"slidedown"}, true ,false);
-		}else{ $.cookie("p_num", p_num);
+		      $.mobile.changePage("#p_"+p_num+"",{transition:"slidedown"}, true ,false);//fade,slide,slideup(会出现空白页),slidedown,pop(中心放大),turn（翻页）,flip（旋转）,flow（向左移动）,slidefade,none
+		}else{
+			$.cookie("p_num", p_num);
 
-		    $.mobile.changePage("#p_"+p_num+"",{transition:"slidedown"}, true ,false);	}
+		    $.mobile.changePage("#p_"+p_num+"",{transition:"slidedown"}, true ,false);
+		}
 		
 		
 	});

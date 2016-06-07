@@ -7,15 +7,9 @@
 <title>歌手大赛</title>
 <link rel="stylesheet" href="css/jquery.mobile-1.4.5.css">
 <link rel="stylesheet" href="css/style.css">
-<script src="js/jquery-1.11.1.js"></script>
-<script src="js/jquery.cookie.js"></script>
-<script src="js/jquery.mobile-1.4.5.js"></script>
-<script src="js/touch.js"></script>
-<script src="js/main.js"></script>
-<script src="js/loadimg.js"></script>
 
 <style type="text/css">
-.a_mu {display:none!important;display:none}
+.a_mu {display:none!important;display:none}     /*!important表示优先级最高*/
 .a_pt {display:none!important;display:none}
 .wp.a_t {display:none!important;display:none}
 .ad,.ad-980x90,.ad-text,[id^="pushAd_"],#sitefocus.focus,.top-ad,.adsbygoogle,[class^="ad_headerbanner"],#gg_head,.ad_column,#header_ad,[class$="_topad"],img[src*="/common/cf/"],#adtext,#ad_headerbanner,font.jammer {display:none!important;display:none}
@@ -47,8 +41,8 @@
    
    wx.ready(function(){
 		wx.onMenuShareAppMessage({
-          title: '旗舰领航 相约G45',
-          desc: '2016年度华夏幸福G45区域事业部新春员工大会',
+          title: '歌手大赛',
+          desc: '2016年度歌手大赛',
           link: 'http://sj.xinyisheji.com/dc',
           imgUrl: 'http://sj.xinyisheji.com/dc/logo1.jpg',
           trigger: function (res) {
@@ -67,7 +61,7 @@
         });
 
         wx.onMenuShareTimeline({
-          title: '2016年度华夏幸福G45区域事业部新春员工大会',
+          title: '2016年度歌手大赛',
           link: 'http://sj.xinyisheji.com/dc',
           imgUrl: 'http://sj.xinyisheji.com/dc/logo1.jpg',
           trigger: function (res) {
@@ -89,6 +83,7 @@
 		
 	
 </script>
+
 <div class="touch_box" id="touch_box">
   <div data-role="page" id="page_99">
     <div class="loading">
@@ -98,31 +93,28 @@
   </div>
 
     <!--多页面的切换-->
-    <!--•通过实例1可以知道，在jQuery Mobile中，如果将页面元素的“data-role”属性值设置为“page”，则该元素成为一个容器，即页面的某块区域。在一个页面中，可以设置多个元素成为容器，虽然元素的“data-role”属性值都为“page”，但它们对应的“Id”号则不允许相同。-->
+    <!--•如果将页面元素的“data-role”属性值设置为“page”，则该元素成为一个容器，即页面的某块区域。在一个页面中，可以设置多个元素成为容器，虽然元素的“data-role”属性值都为“page”，但它们对应的“Id”号则不允许相同。-->
     <!--•在jQueryQuery Mobile 中，将一个页面中的多个容器当作是多个不同的页面，它们之间的界面切换是通过增加一个<a>元素，并将该元素的“href”属性值设为“#”加对应“Id”号的方式来进行。-->
-    <div data-role="content" class="content_0" id="p_0"><img src="images/1.jpg"></div>
+    <div data-role="page" class="content_0" id="p_0"><img src="images/1.jpg"></div>
+    <!--这里如果把page改为content就会出现错误，具体自己测试-->
 
-
-    <div data-role="content" class="content_1" id="p_1"><img src="images/2.jpg"></div>
-
-
-
-    <div data-role="content" class="content_2" id="p_2"><img src="images/3.jpg"></div>
+    <div data-role="page" class="content_1" id="p_1"><img src="images/2.jpg"></div>
 
 
 
-
-    <div data-role="content" class="content_3" id="p_3"><img src="images/4.jpg"></div>
-
+    <div data-role="page" class="content_2" id="p_2"><img src="images/3.jpg"></div>
 
 
 
-    <div data-role="content" class="content_4" id="p_4"><img src="images/5.jpg"></div>
+    <div data-role="page" class="content_3" id="p_3"><img src="images/4.jpg"></div>
 
 
 
+    <div data-role="page" class="content_4" id="p_4"><img src="images/5.jpg"></div>
 
-    <div data-role="content" class="content_5" id="p_5"><img src="images/6.jpg"></div>
+
+
+    <div data-role="page" class="content_5" id="p_5"><img src="images/6.jpg"></div>
 
 
 
@@ -133,5 +125,13 @@
   <div><img src="images/music_on.png" alt=""></div>
   <div id="m_off"><img src="images/music_off.png" alt=""></div>
 </div>
+
+<script src="js/jquery-1.11.1.js"></script>
+<script src="js/jquery.cookie.js"></script>
+<script src="js/jquery.mobile-1.4.5.js"></script>
+<script src="js/touch.js"></script>
+<script src="js/main.js"></script>
+<script src="js/loadimg.js"></script>
+
 </body>
 </html>
