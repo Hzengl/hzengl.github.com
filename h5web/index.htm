@@ -128,8 +128,8 @@
 //							$("#s0 .a7").css(go),
 							//1.初始状态，文档加载完成，定义指纹图片。代码如下：
 							//扫描指纹
-							$('.ani .a7').click(function () {
-								$('.ani .a7').addClass('ani');
+							$('.a7').click(function () {
+								$('#s2').addClass('ani');
 								setTimeout('swiper.slideNext();', 1000);
 							})
 							break;
@@ -160,21 +160,17 @@
 			$("#s0").addClass("ani").parallax()
 
 		});
-
-
-
-
-
+		
 //		2.定义翻过第一页后，移除类go（防止翻页回去类go仍存在）。代码如下：
 
-		var swiper = new Swiper('.swiper-Container-v',{
+		var swiper = new Swiper('.swiper-wrapper',{
 
 			onSlideChangeEnd: function (swiper) {
 				console.log(swiper.activeIndex);
 
 				//翻页后删除指纹图片上的类
 				if (swiper.activeIndex == 1) {
-					$('#s0 .a7').removeClass('go');
+					$('#s0').removeClass('ani');
 				}
 
 			}
