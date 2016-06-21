@@ -6,21 +6,17 @@
 	<meta name="apple-touch-fullscreen" content="YES">
 	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
 	<meta charset="UTF-8">
-	<title>怡宝与您狂欢欧洲杯</title><script async src="http://c.cnzz.com/core.php"></script>
+	<title>怡宝与您狂欢欧洲杯</title>
 	<!-- scarlet | LXU studio http://lxustudio.com -->
 	<link rel="stylesheet" href="style/normalize.css">
   	<link rel="stylesheet" href="style/swiper.css">
-	
-	
+
 	<link rel="stylesheet" href="style/css.css">
   	<style type="text/css">
   		
   	</style>
-  	<script src="style/jquery-2.1.1.min.js"></script>
-	<script src="style/idangerous.swiper.min.js"></script>
-	<script src="style/jquery.parallax.min.js"></script>
-	<script src="style/weixinapi.js"></script>
-</head><body style="overflow: hidden;"></body>
+
+</head>
 <body>
 	<div class="swiper-container">
 		<div class="swiper-wrapper" style="width: 336px; height: 8805px; transition: 0.3s; -webkit-transition: 0.3s; -webkit-transform: translate3d(0px, 0px, 0px);">
@@ -116,9 +112,15 @@
 			
 
 	</div>
+		<script src="style/jquery-2.1.1.min.js"></script>
+		<script src="style/idangerous.swiper.min.js"></script>
+
+		<script src="style/jquery.parallax.min.js"></script>
+		<script src="style/weixinapi.js"></script>
 	<script>
 		$(document).ready(function()
 		{
+
 			var a=new Swiper(".swiper-container",
 				{
 					mode:"vertical",onSlideChangeStart:function(){
@@ -128,13 +130,11 @@
 //							$("#s0 .a7").css(go),
 							//1.初始状态，文档加载完成，定义指纹图片。代码如下：
 							//扫描指纹
-							$('.a7').click(function () {
-								$('#s2').addClass('ani');
-								setTimeout('swiper.slideNext();', 1000);
-							})
+
 							break;
 						case 1:
 							$("#s1").addClass("ani");
+
 							break;
 						case 2:
 							$("#s2").addClass("ani"),
@@ -156,25 +156,36 @@
 							break;
 					}
 				}
+
+
 				});
+			$('.a6').click(function () {
+				a.swipeNext();
+				$('#s1').addClass('ani');
+// setTimeout('swiper.slideNext();', 1000);
+			})
+
+//
+
+
 			$("#s0").addClass("ani").parallax()
 
 		});
-		
+
 //		2.定义翻过第一页后，移除类go（防止翻页回去类go仍存在）。代码如下：
 
-		var swiper = new Swiper('.swiper-wrapper',{
-
-			onSlideChangeEnd: function (swiper) {
-				console.log(swiper.activeIndex);
-
-				//翻页后删除指纹图片上的类
-				if (swiper.activeIndex == 1) {
-					$('#s0').removeClass('ani');
-				}
-
-			}
-		})
+//		var swiper = new Swiper('.swiper-wrapper',{
+//
+//			onSlideChangeEnd: function (swiper) {
+//				console.log(swiper.activeIndex);
+//
+//				//翻页后删除指纹图片上的类
+//				if (swiper.activeIndex == 1) {
+//					$('#s0').removeClass('ani');
+//				}
+//
+//			}
+//		})
 	</script>
 
 </body>

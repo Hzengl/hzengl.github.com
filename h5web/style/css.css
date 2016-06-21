@@ -95,8 +95,8 @@ a{opacity:0}
 #s0.ani .a6{-webkit-animation:fadeInUp 1s 1.6s both}
 #s0.ani .a7{
     /*-webkit-animation:fadeInUp 1s 2s both;*/
-    opacity: 1;
-    -webkit-animation:num_ani3 1s  infinite;
+    opacity: 0;
+    -webkit-animation:num_ani3 1s 3s infinite;
     -webkit-animation-direction:alternate;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
@@ -105,8 +105,9 @@ a{opacity:0}
     }
 
 @-webkit-keyframes num_ani3{
-    0%{ top:80%;}
-    100%{ top:91.5%;}
+    0%{ top:80%;   opacity: 0;}
+    1%{ top:80%;   opacity: 1;}
+    100%{ top:91.5%;opacity: 1;}
 }
 
 

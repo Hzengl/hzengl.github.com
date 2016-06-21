@@ -21,29 +21,45 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.htm" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.htm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.0227545">
-              <caret line="162" column="8" selection-start-line="162" selection-start-column="8" selection-end-line="162" selection-end-column="8" />
+            <state vertical-scroll-proportion="-4.62069">
+              <caret line="163" column="41" selection-start-line="163" selection-start-column="41" selection-end-line="163" selection-end-column="41" />
               <folding>
-                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#body#1;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#section#0;n#div#0;n#div#0;n#body#1;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#section#1;n#div#0;n#div#0;n#body#1;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#section#2;n#div#0;n#div#0;n#body#1;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#section#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="css.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/style/css.css">
+      <file leaf-file-name="idangerous.swiper.min.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/style/idangerous.swiper.min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+            <state vertical-scroll-proportion="55.655174">
+              <caret line="14" column="28806" selection-start-line="14" selection-start-column="28806" selection-end-line="14" selection-end-column="28806" />
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="css.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/style/css.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.60370797">
+              <caret line="109" column="31" selection-start-line="109" selection-start-column="31" selection-end-line="109" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="04.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/04.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -102,8 +118,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/style/dsft.html" />
-        <option value="$PROJECT_DIR$/style/css.css" />
         <option value="$PROJECT_DIR$/index.htm" />
+        <option value="$PROJECT_DIR$/style/css.css" />
       </list>
     </option>
   </component>
@@ -198,7 +214,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="F:/h5web" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
   <component name="RunManager">
@@ -287,11 +303,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="62" column="38" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="38" />
           <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#1;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#section#0;n#div#0;n#div#0;n#body#1;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#section#1;n#div#0;n#div#0;n#body#1;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#section#2;n#div#0;n#div#0;n#body#1;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#section#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -400,23 +415,11 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/04.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style/idangerous.swiper.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34371257">
-          <caret line="14" column="14702" selection-start-line="14" selection-start-column="14702" selection-end-line="14" selection-end-column="14702" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33256084">
           <caret line="996" column="0" selection-start-line="996" selection-start-column="0" selection-end-line="996" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -480,25 +483,37 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style/css.css">
+    <entry file="file://$PROJECT_DIR$/images/04.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/idangerous.swiper.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        <state vertical-scroll-proportion="55.655174">
+          <caret line="14" column="28806" selection-start-line="14" selection-start-column="28806" selection-end-line="14" selection-end-column="28806" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0227545">
-          <caret line="162" column="8" selection-start-line="162" selection-start-column="8" selection-end-line="162" selection-end-column="8" />
+        <state vertical-scroll-proportion="-4.62069">
+          <caret line="163" column="41" selection-start-line="163" selection-start-column="41" selection-end-line="163" selection-end-column="41" />
           <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#1;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#section#0;n#div#0;n#div#0;n#body#1;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#section#1;n#div#0;n#div#0;n#body#1;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#section#2;n#div#0;n#div#0;n#body#1;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#section#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/css.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.60370797">
+          <caret line="109" column="31" selection-start-line="109" selection-start-column="31" selection-end-line="109" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>
