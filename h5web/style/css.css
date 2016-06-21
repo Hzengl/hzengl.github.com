@@ -15,7 +15,7 @@ a{opacity:0}
 #s0 .a3{margin: auto;left:24%;top:42%;width:50%;height:8%;background:url("../images/07.png") no-repeat;background-size:100% 100%}
 #s0 .a4{margin: auto;left:20%;top:50%;width:60%;height:20%;background:url("../images/09.png") no-repeat;background-size:100% 100%}
 #s0 .a5{margin: auto;left:19%;top:73%;width:75%;height:6%;background:url("../images/10.png") no-repeat;background-size:100% 100%}
-#s0 .a6{margin: auto;left:35%;top:80%;width:30%;height:15%;background:url("../images/03.png") no-repeat;background-size:100% 100%}
+#s0 .a6{margin: auto;left:35%;top:80%;width:28%;height:15%;background:url("../images/03.png") no-repeat;background-size:100% 100%}
 #s0 .a7{left:34.56%;top:80%;width:30%;height:5%;background:url("../images/04.png") no-repeat;background-size:100% 100%}
 
 
@@ -96,7 +96,7 @@ a{opacity:0}
 #s0.ani .a7{
     /*-webkit-animation:fadeInUp 1s 2s both;*/
     opacity: 0;
-    -webkit-animation:num_ani3 1s 3s infinite;
+    -webkit-animation:num_ani3 1s 2s infinite;
     -webkit-animation-direction:alternate;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
@@ -107,7 +107,7 @@ a{opacity:0}
 @-webkit-keyframes num_ani3{
     0%{ top:80%;   opacity: 0;}
     1%{ top:80%;   opacity: 1;}
-    100%{ top:91.5%;opacity: 1;}
+    100%{ top:90%;opacity: 1;}
 }
 
 
