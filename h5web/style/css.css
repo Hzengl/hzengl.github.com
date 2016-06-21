@@ -43,19 +43,19 @@ a{opacity:0}
 }
 #s1 .p2{
     color: white;
-    top: 27%;
-    left: 13%;
-    font-size: 22px;
+    top: 28%;
+    left: 20%;
+    font-size: 18px;
 }
 #s1 .a2{
     color: orange;
-    font-size: 40px;
+    font-size: 30px;
     top: -30%;
 }
-#s1 .w4{left:8%;top:34%;width:73%;height:12%;background:url("../images/qd3.png") no-repeat;background-size:100% 100%}
-#s1 .w5{left:8%;top:47%;width:73%;height:12%;background:url("../images/qd3.png") no-repeat;background-size:100% 100%}
-#s1 .w6{left:8%;top:60%;width:73%;height:12%;background:url("../images/qd3.png") no-repeat;background-size:100% 100%}
-#s1 .w7{left:-6%;top:87%;width:100%;height:12%;background:url("../images/qd2.png") no-repeat;background-size:100% 100%}
+#s1 .w4{left:12%;top:37%;width:80%;height:10%;background:url("../images/qd3.png") no-repeat;background-size:100% 100%}
+#s1 .w5{left:12%;top:47%;width:80%;height:10%;background:url("../images/qd3.png") no-repeat;background-size:100% 100%}
+#s1 .w6{left:12%;top:57%;width:80%;height:10%;background:url("../images/qd3.png") no-repeat;background-size:100% 100%}
+#s1 .w7{left:0;top:87%;width:100%;height:12%;background:url("../images/qd2.png") no-repeat;background-size:100% 100%}
 
 
 #s2 {background:url("../images/01.jpg") no-repeat;background-size:100% 100%}
