@@ -57,10 +57,13 @@
 				<div class="w1"></div>
 				<div class="w2"></div>
 				<div class="w3"></div>
+				<p class="p1">您已连续签到：<a class="a1">1</a>&nbsp;次</p>
+				<p class="p2">距离下一场球赛倒计时：<a class="a2">09:30</a>&nbsp;</p>
 				<div class="w4"></div>
 				<div class="w5"></div>
 				<div class="w6"></div>
-				<div id="coin"></div>
+				<div class="w7"></div>
+
 				<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 59 29" enable-background="new 0 0 59 29" xml:space="preserve" class="up bg">
 					<g>
 						<polygon fill="#FFFFFF" points="54,28.9 29.4,4.7 4.7,28.9 0,28.9 29.4,0 58.8,28.9"></polygon>
@@ -104,11 +107,11 @@
 					switch(a.activeIndex){
 						case 0:
 							$("#s0").addClass("ani");
-							$("#s0 .a7").css(go),
+//							$("#s0 .a7").css(go),
 							//1.初始状态，文档加载完成，定义指纹图片。代码如下：
 							//扫描指纹
-							$('#s0 .a7').click(function () {
-								$('#s0 .a7').addClass('go');
+							$('.ani .a7').click(function () {
+								$('.ani .a7').addClass('ani');
 								setTimeout('swiper.slideNext();', 1000);
 							})
 							break;
@@ -117,8 +120,6 @@
 							break;
 						case 2:
 							$("#s2").addClass("ani"),
-							$("#s2 .wmw").css("opacity","1"),
-							$("#s2 .wmw *").css("opacity","1"),
 							$("#s2").parallax();
 							break;
 					}
@@ -129,9 +130,7 @@
 							break;
 						case 1:
 							$("#s0").removeClass("ani"),
-									$("#s2").removeClass("ani"),
-									$("#s2 .wmw").css("opacity","0"),
-									$("#s2 .wmw *").css("opacity","0");
+							$("#s2").removeClass("ani");
 							break;
 						case 2:
 							$("#s1").removeClass("ani"),
