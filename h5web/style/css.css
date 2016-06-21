@@ -39,12 +39,12 @@ a{opacity:0}
 #s1 .a1{
     top:-10%;
     color: orange;
-    font-size: 15px;
+    font-size: 10px;
 }
 #s1 .p2{
     color: white;
     top: 28%;
-    left: 20%;
+    left: 18%;
     font-size: 18px;
 }
 #s1 .a2{
@@ -52,9 +52,9 @@ a{opacity:0}
     font-size: 30px;
     top: -30%;
 }
-#s1 .w4{left:12%;top:37%;width:80%;height:10%;background:url("../images/qd3.png") no-repeat;background-size:100% 100%}
-#s1 .w5{left:12%;top:47%;width:80%;height:10%;background:url("../images/qd3.png") no-repeat;background-size:100% 100%}
-#s1 .w6{left:12%;top:57%;width:80%;height:10%;background:url("../images/qd3.png") no-repeat;background-size:100% 100%}
+#s1 .w4{left:12%;top:37%;width:80%;height:13%;background:url("../images/qd3.png") no-repeat;background-size:100% 100%}
+#s1 .w5{left:12%;top:50%;width:80%;height:13%;background:url("../images/qd3.png") no-repeat;background-size:100% 100%}
+#s1 .w6{left:12%;top:63%;width:80%;height:13%;background:url("../images/qd3.png") no-repeat;background-size:100% 100%}
 #s1 .w7{left:0;top:87%;width:100%;height:12%;background:url("../images/qd2.png") no-repeat;background-size:100% 100%}
 
 
