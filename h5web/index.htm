@@ -17,7 +17,6 @@
   	</style>
     <script>
 		//获取浏览器页面可见高度和宽度
-
 		var _PageHeight = document.documentElement.clientHeight,
 
 				_PageWidth = document.documentElement.clientWidth;
@@ -38,23 +37,9 @@
 
 		document.write(_LoadingHtml);
 
-
-
-//		window.onload = function () {
-//
-//		    var loadingMask = document.getElementById('loadingDiv');
-//
-//		    loadingMask.parentNode.removeChild(loadingMask);
-//
-//		};
-
-
-
 		//监听加载状态改变
 
 		document.onreadystatechange = completeLoading;
-
-
 
 		//加载状态为complete时移除loading效果
 
@@ -177,7 +162,9 @@
 
 			var a=new Swiper(".swiper-container",
 				{
-					mode:"vertical",onSlideChangeStart:function(){
+					noSwiping : true,
+					noSwipingClass : 'stop-swiping',
+					onSlideChangeStart:function(){
 					switch(a.activeIndex){
 						case 0:
 							$("#s0").addClass("ani");
@@ -195,7 +182,8 @@
 							$("#s2").parallax();
 							break;
 					}
-				},onSlideChangeEnd:function(){
+				},
+						onSlideChangeEnd:function(){
 					switch(a.activeIndex){
 						case 0:
 							$("#s1").removeClass("ani");
@@ -213,9 +201,13 @@
 
 
 				});
+
 			$('.a6').click(function () {
-				a.swipeNext();
-				$('#s1').addClass('ani');
+
+				var sendtime=setTimeout(function(){
+					a.swipeNext();
+					$('#s1').addClass('ani');
+				},1000)
 // setTimeout('swiper.slideNext();', 1000);
 			})
 
