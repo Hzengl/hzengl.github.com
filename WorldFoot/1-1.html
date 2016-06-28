@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>前端</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=7" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1.0" />
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/jquery-2.0.0.min.js"></script>
+<script type="text/javascript" src="js/addons.js"></script>
+<script type="text/javascript" src="js/TouchSlide.1.1.js"></script>
+</head>
+
+<body class="wtBg">
+<div class="layout">
+    <div class="select_hd">
+        <h1>请先选择主场</h1>
+    </div>
+    <div class="select_ul">
+        <ul class="clearfix">
+            <li>
+                <label>
+                    <input type="radio" name="radio">
+                    <i><img src="images/tx.png"></i>法国</label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="radio">
+                    <i><img src="images/tx2.png"></i>德国</label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="radio">
+                    <i><img src="images/tx3.png"></i>意大利</label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="radio">
+                    <i><img src="images/tx4.png"></i>西班牙</label>
+            </li><li><label><input type="radio" name="radio">自定义</label></li>
+        </ul>
+    </div>
+    <div class="select_bd">
+        <div id="slideBox" class="slideBox">
+            <div class="bd">
+                <ul>
+                    <li>
+                        <div class="img2"><img src="images/mr.png"></div>
+                        <img src="images/tp2.png" class="img1" />
+                        <div class="file-div">添加照片
+                            <input type="file" class="file-btn " accept="image/*" >
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img2"><img src="images/mr.png"></div>
+                        <img src="images/tp2.png" class="img1" />
+                        <div class="file-div">添加照片
+                            <input type="file" class="file-btn " accept="image/*" >
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img2"><img src="images/mr.png"></div>
+                        <img src="images/tp2.png" class="img1" />
+                        <div class="file-div">添加照片
+                            <input type="file" class="file-btn " accept="image/*" >
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img2"><img src="images/mr.png"></div>
+                        <img src="images/tp2.png" class="img1" />
+                        <div class="file-div">添加照片
+                            <input type="file" class="file-btn " accept="image/*" >
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="hd">
+                <ul>
+                </ul>
+            </div>
+        </div>
+        <script>
+  TouchSlide({ 
+					slideCell:"#slideBox",
+					titCell:".hd ul", //开启自动分页 autoPage:true ，此时设置 titCell 为导航元素包裹层
+					mainCell:".bd ul", 
+					effect:"leftLoop", 
+					autoPage:true,//自动分页
+					autoPlay:false,//自动播放
+					interTime:4000
+				});
+    </script> 
+    </div>
+    <div class="tipbox">
+        <h3>（选择背景模板，添加照片）</h3>
+        <p>图片上传日期: 29/06/2016</p>
+    </div>
+    <div class="inpbox">
+        <textarea placeholder="写一些你想说的话吧（不超过20字）"></textarea>
+    </div>
+    <div class="btnbox">
+        <input type="button" class="button" value="确定">
+    </div>
+</div>
+</body>
+</html>

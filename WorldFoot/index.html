@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>前端</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=7" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1.0" />
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/jquery-2.0.0.min.js"></script>
+<script type="text/javascript" src="js/TouchSlide.1.1.js"></script>
+<script type="text/javascript" src="js/addons.js"></script>
+</head>
+
+<body>
+<div class="layout">
+    <div class="yb_head">
+     <div id="slideBox2" class="img slideBox">
+        <div class="bd">
+            <ul>
+                <li> <a class="pic" href="#"><img src="images/banner.png" /></a><div class="logo"><img src="images/logo3.png"></div> <div class="img4"></div> </li>
+                <li> <a class="pic" href="#"><img src="images/banner2.jpg" /></a> </li>
+            </ul>
+        </div>
+        <div class="hd">
+            <ul>
+            </ul>
+        </div>
+    </div>
+     <script>
+  TouchSlide({ 
+					slideCell:"#slideBox2",
+					titCell:".hd ul", //开启自动分页 autoPage:true ，此时设置 titCell 为导航元素包裹层
+					mainCell:".bd ul", 
+					effect:"leftLoop", 
+					autoPage:true,//自动分页
+					autoPlay:true,//自动播放
+					interTime:4000
+				});
+    </script> 
+    
+    </div>
+    <div class="yb_nav">
+        <ul class="clearfix">
+            <li><a href="javascript:;"  onclick="$('#popDiv1,#maskLayer').show();"><i><img src="images/t1.png"></i><strong>参与规则</strong></a></li>
+            <li><a href="javascript:;"  onclick="$('#popDiv2,#maskLayer').show();"><i><img src="images/t2.png"></i><strong>活动奖品</strong></a></li>
+            <li><a href="#"><i><img src="images/t3.png"></i><strong>中奖名单</strong></a></li>
+        </ul>
+    </div>
+    <div class="yb_bottom">
+        <div class="btn"><a href="#">参与活动</a></div>
+  
+    </div>
+    <div class="fixedNav">
+          <ul class="clearfix">
+            <li><a  href="#"><i class="i1"><img src="images/n1.png"></i><strong>最新参赛</strong></a></li>
+            <li><a  href="#"><i class="i2"><img src="images/n2.png"></i><strong>最新排名</strong></a></li>
+             <li><a  href="#"><i class="i3"><img src="images/n3.png"></i><strong>我的作品</strong></a></li>
+        </ul>
+    </div>
+    
+</div>
+<div id="maskLayer"></div>
+<!--弹出一-->
+<div id="popDiv1" class="popStyle popStyle1">
+    <div class="innerBox"> <a class="tclose" onclick="$('#popDiv1,#maskLayer').hide();">关闭</a>
+        <div class="info">
+            <h2>参与规则</h2>
+            <p>1、参与活动选择支持球队主场模版，上传照片＋文字编辑；
+            <p>
+            <p> 2、分享、邀请好友为你的主场投票点赞； </p>
+            <p> 3、每天每位参与用户可为好</p>
+            <p>4、以投票点赞数量为排名次序，当天排名第一参与者将占领活动“主场”并获得怡宝球迷狂欢节大礼包一份；</p>
+            <p>5、活动每天将产生一位中奖用户，每位中奖用户仅限一次中奖机会；</p>
+        </div>
+        <div class="time">活动时间：6月29日－7月13日<br>
+            本次活动最终解释权归怡宝所有</div>
+    </div>
+</div>
+<!--弹出二-->
+<div id="popDiv2" class="popStyle popStyle2">
+    <div class="innerBox"> <a class="tclose" onclick="$('#popDiv2,#maskLayer').hide();">关闭</a>
+        <div class="info">
+            <h2>活动奖品</h2>
+            <h3 class="org">怡宝球迷狂欢节狂欢大礼包：</h3>
+            <div class="img"><img src="images/pic1.jpg"></div>
+            <p>4、以投票点赞数量为排名次序，当天排名第一参与者将占领活动“主场”并获得怡宝球迷狂欢节大礼包一份；</p>
+        </div>
+        <div class="time">奖品数量：15（份）<br>
+            图片仅供参考，以最终配送实物为准 </div>
+    </div>
+</div>
+</body>
+</html>

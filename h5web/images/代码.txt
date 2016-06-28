@@ -1,0 +1,209 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>爱围棋</title>
+<style>
+.big{
+     width:1065px;
+	 height:1500px;
+	 margin:0 auto;
+	 background-color:#F9ECD9;
+}
+.up{
+	width:989px;
+	height:229px;}
+.one{
+	width:989px;
+	height:200px;
+	}
+.two{
+	width:989px;
+	height:220px;
+	margin-top:30px;
+
+	}
+
+.left{
+	width:280px;
+	height:200px;
+	 float:left;
+	 margin-left:50px;
+	 margin-right:25px;
+	}
+.p{
+	width:240px;
+	height:200px;
+	font-family:宋体；
+	font-size:150px;
+    float:left;
+	line-height:200%;
+	 margin-left:25px;
+	 margin-right:15px;
+	}
+.right{
+	width:300px;
+	height:200px;
+	 float:right;
+	 margin-left:15px;
+	 margin-right:20px; 
+		}
+.zong{
+	width:360px;
+	height:210px;
+	float:left;
+			}
+.part{
+	width:357px;
+	height:30px;
+    background-color:#F9ECD9;
+			}
+.b{
+	background-color:#F3D9B3;
+	width:250px;
+	height:35px;
+	margin-bottom:5px;
+	text-align:center;
+	padding-top:1px;
+	padding-bottom:8px;
+	font-family:宋体；
+	font-size:150px;
+		}
+.zong1{
+	width:250px;
+	height:210px;
+	float:left;
+			}
+.zong2{
+	width:360px;
+	height:210px;
+	float:left;
+			}		
+.zong3{
+	width:230px;
+	height:100px;
+	float:right;
+	margin-top:-15px;
+    margin-left:3px;
+	}
+.part1{
+	width:235px;
+	height:20px;
+	}
+		
+</style>
+</head>
+
+<body>
+<div class="big">
+  <div class="up">
+    <img src="0.jpg" border="0"/>
+  </div>
+  <table width="989" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="149">&nbsp;</td>
+    <td width="115">&nbsp;</td>
+    <td width="115">&nbsp;</td>
+    <td width="115">&nbsp;</td>
+    <td width="115">&nbsp;</td>
+    <td width="115">&nbsp;</td>
+    <td width="115">&nbsp;</td>
+    <td width="150">&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><img src="02.jpg"/></td>
+    <td><img src="03.jpg"/></td>
+    <td><img src="04.jpg"/></td>
+    <td><img src="05.jpg"/></td>
+    <td><img src="06.jpg"/></td>
+    <td><img src="07.jpg"/></td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+<div>
+<img src="line1.jpg"/>
+</div>
+
+
+  <div class="one">
+  <div class="left">
+  <img src="08.jpg"/>
+  </div>
+  <div class="p">
+  <p>围棋之道不可只重棋艺，必须艺，品，理，规，礼，五者兼备，斯谓“棋道”。棋艺简称“艺”，棋品简称“品”。棋艺与棋品乃对局之战术与策略，其变化因人而异</p>
+  </div>
+  <div class="right">
+  <img src="10.jpg"/>
+  </div>
+  </div>
+  
+  
+  
+ <div class="two">
+ <div  class="zong">
+  <img src="weiqizhishii.jpg"  >
+  <div class="part">
+  <img src="fangkuai.jpg" style="padding-left:20px" >
+  棋力快速增长的&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;14-03-19
+ <img src="line4.jpg" style="padding-left:40px" >
+ </div>
+  <div class="part">
+  <img src="fangkuai.jpg" style="padding-left:20px" >
+  围棋与东方智慧&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;14-03-19
+ <img src="line4.jpg" style="padding-left:40px" >
+ </div>
+  <div class="part">
+  <img src="fangkuai.jpg" style="padding-left:20px" >
+  围棋的谋划和落&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;14-03-19
+ <img src="line4.jpg" style="padding-left:40px" >
+ </div>
+  <div class="part">
+  <img src="fangkuai.jpg" style="padding-left:20px" >
+一盘棋输掉一座&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;14-03-19 
+ <img src="line4.jpg" style="padding-left:40px" >
+ </div>
+ </div>
+ 
+ <div  class="zong1">
+<div class="b">
+      <p>围棋基本下法</p>
+      </div>
+   <div class="b">
+      <p>围棋竞赛规定</p>
+      </div>
+  <div class="b">
+      <p>围棋胜负判定</p>
+      </div>
+   <div class="b">
+      <p>围棋古代规则</p>
+      </div>
+  <div>
+  
+<div class="zong2">
+   <img src="weiqikuaixun.jpg"  >
+   <img src="11.jpg" style="padding-top:15px;">
+ <div class="zong3">
+  <div class="part1">
+   <p>世智会围棋男团体</p> </div>
+   <img src="line5.jpg">
+  <div class="part1">
+   <p>中国90后恐怖发力</p></div>
+    <img src="line5.jpg">
+  <div class="part1">
+   <p>苦无良策比比分落</p></div>
+   <img src="line5.jpg">
+  <div class="part1">
+   <p>2013女子围甲江苏</p></div>
+   <img src="line5.jpg">
+</div><!——这是zong3的div-->
+
+</div><!——这是zong2的div-->
+
+</div><!——这是two的div-->
+ 
+  <div>
+  </div><!——这是big的div-->
+</body>
+</html>
